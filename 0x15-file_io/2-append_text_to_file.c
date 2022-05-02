@@ -22,7 +22,7 @@ fd = open(filename, O_WRONLY | O_APPEND);
 if (fd == -1)
 return (-1);
 
-if t_content)
+if (text_content)
 {
 for (nletters = 0; text_content[nletters]; nletters++)
 ;
